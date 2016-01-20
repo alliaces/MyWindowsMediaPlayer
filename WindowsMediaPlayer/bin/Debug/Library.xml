@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Media Path="F:\Videos\Collateral (2000).mkv" Artists="" BPM="0" Composers="" Disc="0" DiscCount="0" Genres="" Performers="" Title="Collateral" Track="0" TrackCount="0" Year="0" Length="0" Url="http://movies.uip.de/collateral/home.html" Adult="false">
+    <Properties AudioBitrate="0" AudioChannels="6" AudioSampleRate="48000" BitsPerSample="0" Description=" fre;  fre;  fre;  ;  fre;  " PhotoHeight="0" PhotoQuality="0" PhotoWidth="0" VideoHeight="808" VideoWidth="1920" />
+    <Picture>C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\bin\Debug\Covers\a01a74448b5b0de158ec5089c9546526.png</Picture>
+    <Type>Video</Type>
+  </Media>
+  <Media Path="F:\Videos\Hacker (2015).mkv" Artists="" BPM="0" Composers="" Disc="0" DiscCount="0" Genres="" Performers="" Title="Hacker" Track="0" TrackCount="0" Year="0" Length="0" Url="" Adult="false">
+    <Properties AudioBitrate="0" AudioChannels="6" AudioSampleRate="48000" BitsPerSample="0" Description=" und;  fre;  eng;  fre;  fre;  eng;  eng;  und" PhotoHeight="0" PhotoQuality="0" PhotoWidth="0" VideoHeight="800" VideoWidth="1920" />
+    <Picture>C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\bin\Debug\Covers\da2c55e3ada227f5b5931d5b4314bd0c.png</Picture>
+    <Type>Video</Type>
+  </Media>
+  <Media Path="F:\Videos\Persona 3 the movie.mp4" Artists="" BPM="0" Composers="" Disc="0" DiscCount="0" Genres="" Performers="" Title="Persona 3 the Movie 3: Falling Down" Track="0" TrackCount="0" Year="0" Length="0" Url="http://www.p3m.jp/" Adult="false">
+    <Properties AudioBitrate="3" AudioChannels="2" AudioSampleRate="48000" BitsPerSample="0" Description="MPEG-4 Audio (mp4a); MPEG-4 Video (avc1)" PhotoHeight="0" PhotoQuality="0" PhotoWidth="0" VideoHeight="1080" VideoWidth="1920" />
+    <Picture>C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\bin\Debug\Covers\64b83f684a59afdba70d8eb51eb3f97a.png</Picture>
+    <Type>Video</Type>
+  </Media>
+  <Media Path="F:\Videos\U2 Innocence Experience Tour Live from Paris 11.11.2015 [1080p].mp4" Artists="" BPM="0" Composers="" Disc="0" DiscCount="0" Genres="" Performers="" Title="U2: iNNOCENCE + eXPERIENCE Live in Paris" Track="0" TrackCount="0" Year="0" Length="0" Url="" Adult="false">
+    <Properties AudioBitrate="191" AudioChannels="2" AudioSampleRate="44100" BitsPerSample="0" Description="MPEG-4 Audio (mp4a); MPEG-4 Video (avc1)" PhotoHeight="0" PhotoQuality="0" PhotoWidth="0" VideoHeight="720" VideoWidth="1280" />
+    <Picture>C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\bin\Debug\Covers\9430886b7f535adb392c41a11737436c.png</Picture>
+    <Type>Video</Type>
+  </Media>
+  <Media Path="F:\Videos\Wildlife.wmv" Artists="" BPM="0" Comment="Footage: Small World Productions, Inc; Tourism New Zealand | Producer: Gary F. Spradling | Music: Steve Ball" Composers="" Copyright="© 2008 Microsoft Corporation" Disc="0" DiscCount="0" Genres="" Performers="" Title="Wildlife" Track="0" TrackCount="0" Year="0" Length="0" Url="" Adult="false">
+    <Properties AudioBitrate="192" AudioChannels="2" AudioSampleRate="44100" BitsPerSample="16" Description="Microsoft WMA2 Audio; Unknown Image (WVC1)" PhotoHeight="0" PhotoQuality="0" PhotoWidth="0" VideoHeight="720" VideoWidth="1280" />
+    <Picture>C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\bin\Debug\Covers\0024715bdf892435313d1f2156aaf2d4.png</Picture>
+    <Type>Video</Type>
+  </Media>
+</ArrayOfMedia>

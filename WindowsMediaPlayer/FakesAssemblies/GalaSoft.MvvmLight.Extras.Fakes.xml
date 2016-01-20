@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GalaSoft.MvvmLight.Extras.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:GalaSoft.MvvmLight.Ioc.Fakes.ShimPreferredConstructorAttribute">
+            <summary>Shim type of GalaSoft.MvvmLight.Ioc.PreferredConstructorAttribute</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimPreferredConstructorAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimPreferredConstructorAttribute.#ctor(GalaSoft.MvvmLight.Ioc.PreferredConstructorAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Ioc.Fakes.ShimPreferredConstructorAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimPreferredConstructorAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimPreferredConstructorAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimPreferredConstructorAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimPreferredConstructorAttribute.Constructor">
+            <summary>Sets the shim of PreferredConstructorAttribute.PreferredConstructorAttribute()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc">
+            <summary>Shim type of GalaSoft.MvvmLight.Ioc.SimpleIoc</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.#ctor(GalaSoft.MvvmLight.Ioc.SimpleIoc)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.ContainsCreatedOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.ContainsCreated()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.ContainsCreatedOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.String,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.ContainsCreated(String key)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.DoGetServiceTypeStringBoolean">
+            <summary>Sets the shim of SimpleIoc.DoGetService(Type serviceType, String key, Boolean cache)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.DoRegisterOf1TypeFuncOfM0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Type,System.Func{``0},System.String})">
+            <summary>Sets the shim of SimpleIoc.DoRegister(Type classType, Func`1&lt;!!0&gt; factory, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetAllCreatedInstancesOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the shim of SimpleIoc.GetAllCreatedInstances()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetAllCreatedInstancesType">
+            <summary>Sets the shim of SimpleIoc.GetAllCreatedInstances(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetAllInstancesOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the shim of SimpleIoc.GetAllInstances()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetAllInstancesType">
+            <summary>Sets the shim of SimpleIoc.GetAllInstances(Type serviceType)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetConstructorInfoType">
+            <summary>Sets the shim of SimpleIoc.GetConstructorInfo(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,``0})">
+            <summary>Sets the shim of SimpleIoc.GetInstance()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetInstanceOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.String,``0})">
+            <summary>Sets the shim of SimpleIoc.GetInstance(String key)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetInstanceType">
+            <summary>Sets the shim of SimpleIoc.GetInstance(Type serviceType)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetInstanceTypeString">
+            <summary>Sets the shim of SimpleIoc.GetInstance(Type serviceType, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetInstanceWithoutCachingOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,``0})">
+            <summary>Sets the shim of SimpleIoc.GetInstanceWithoutCaching()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetInstanceWithoutCachingOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.String,``0})">
+            <summary>Sets the shim of SimpleIoc.GetInstanceWithoutCaching(String key)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetInstanceWithoutCachingType">
+            <summary>Sets the shim of SimpleIoc.GetInstanceWithoutCaching(Type serviceType)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetInstanceWithoutCachingTypeString">
+            <summary>Sets the shim of SimpleIoc.GetInstanceWithoutCaching(Type serviceType, String key)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.GetServiceType">
+            <summary>Sets the shim of SimpleIoc.GetService(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.IsRegisteredOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.IsRegistered()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.IsRegisteredOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.String,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.IsRegistered(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.MakeInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.Ioc.SimpleIoc,``0})">
+            <summary>Sets the shim of SimpleIoc.MakeInstance()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.RegisterOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc})">
+            <summary>Sets the shim of SimpleIoc.Register()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.RegisterOf1Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.Register(Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.RegisterOf1FuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Func{``0}})">
+            <summary>Sets the shim of SimpleIoc.Register(Func`1&lt;!!0&gt; factory)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.RegisterOf1FuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Func{``0},System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.Register(Func`1&lt;!!0&gt; factory, Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.RegisterOf1FuncOfM0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Func{``0},System.String})">
+            <summary>Sets the shim of SimpleIoc.Register(Func`1&lt;!!0&gt; factory, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.RegisterOf1FuncOfM0StringBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Func{``0},System.String,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.Register(Func`1&lt;!!0&gt; factory, String key, Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.RegisterOf2``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc})">
+            <summary>Sets the shim of SimpleIoc.Register()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.RegisterOf2Boolean``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.Register(Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.Reset">
+            <summary>Sets the shim of SimpleIoc.Reset()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.UnregisterOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc})">
+            <summary>Sets the shim of SimpleIoc.Unregister()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.UnregisterOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,``0})">
+            <summary>Sets the shim of SimpleIoc.Unregister(!!0 instance)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.AllInstances.UnregisterOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Ioc.SimpleIoc,System.String})">
+            <summary>Sets the shim of SimpleIoc.Unregister(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.Bind(GalaSoft.MvvmLight.Ioc.ISimpleIoc)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.Bind(Microsoft.Practices.ServiceLocation.IServiceLocator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.Bind(System.IServiceProvider)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.Constructor">
+            <summary>Sets the shim of SimpleIoc.SimpleIoc()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.ContainsCreatedOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.ContainsCreated()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.ContainsCreatedOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.ContainsCreated(String key)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.DefaultGet">
+            <summary>Sets the shim of SimpleIoc.get_Default()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.DoGetServiceTypeStringBoolean">
+            <summary>Sets the shim of SimpleIoc.DoGetService(Type serviceType, String key, Boolean cache)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.DoRegisterOf1TypeFuncOfM0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Type,System.Func{``0},System.String})">
+            <summary>Sets the shim of SimpleIoc.DoRegister(Type classType, Func`1&lt;!!0&gt; factory, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetAllCreatedInstancesOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the shim of SimpleIoc.GetAllCreatedInstances()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetAllCreatedInstancesType">
+            <summary>Sets the shim of SimpleIoc.GetAllCreatedInstances(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetAllInstancesOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the shim of SimpleIoc.GetAllInstances()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetAllInstancesType">
+            <summary>Sets the shim of SimpleIoc.GetAllInstances(Type serviceType)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetConstructorInfoType">
+            <summary>Sets the shim of SimpleIoc.GetConstructorInfo(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>Sets the shim of SimpleIoc.GetInstance()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetInstanceOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>Sets the shim of SimpleIoc.GetInstance(String key)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetInstanceType">
+            <summary>Sets the shim of SimpleIoc.GetInstance(Type serviceType)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetInstanceTypeString">
+            <summary>Sets the shim of SimpleIoc.GetInstance(Type serviceType, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetInstanceWithoutCachingOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>Sets the shim of SimpleIoc.GetInstanceWithoutCaching()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetInstanceWithoutCachingOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>Sets the shim of SimpleIoc.GetInstanceWithoutCaching(String key)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetInstanceWithoutCachingType">
+            <summary>Sets the shim of SimpleIoc.GetInstanceWithoutCaching(Type serviceType)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetInstanceWithoutCachingTypeString">
+            <summary>Sets the shim of SimpleIoc.GetInstanceWithoutCaching(Type serviceType, String key)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetPreferredConstructorInfoIEnumerableOfConstructorInfoType">
+            <summary>Sets the shim of SimpleIoc.GetPreferredConstructorInfo(IEnumerable`1&lt;ConstructorInfo&gt; constructorInfos, Type resolveTo)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.GetServiceType">
+            <summary>Sets the shim of SimpleIoc.GetService(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.IsRegisteredOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.IsRegistered()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.IsRegisteredOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.IsRegistered(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.MakeInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>Sets the shim of SimpleIoc.MakeInstance()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.RegisterOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Sets the shim of SimpleIoc.Register()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.RegisterOf1Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.Register(Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.RegisterOf1FuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0}})">
+            <summary>Sets the shim of SimpleIoc.Register(Func`1&lt;!!0&gt; factory)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.RegisterOf1FuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0},System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.Register(Func`1&lt;!!0&gt; factory, Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.RegisterOf1FuncOfM0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0},System.String})">
+            <summary>Sets the shim of SimpleIoc.Register(Func`1&lt;!!0&gt; factory, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.RegisterOf1FuncOfM0StringBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0},System.String,System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.Register(Func`1&lt;!!0&gt; factory, String key, Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.RegisterOf2``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Sets the shim of SimpleIoc.Register()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.RegisterOf2Boolean``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Boolean})">
+            <summary>Sets the shim of SimpleIoc.Register(Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.Reset">
+            <summary>Sets the shim of SimpleIoc.Reset()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.UnregisterOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Sets the shim of SimpleIoc.Unregister()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.UnregisterOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets the shim of SimpleIoc.Unregister(!!0 instance)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc.UnregisterOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String})">
+            <summary>Sets the shim of SimpleIoc.Unregister(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc._GetAllCreatedInstancesb__1eOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,``0})">
+            <summary>Sets the shim of SimpleIoc.&lt;GetAllCreatedInstances&gt;b__1e(Object instance)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc._GetAllInstancesb__20Of1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,``0})">
+            <summary>Sets the shim of SimpleIoc.&lt;GetAllInstances&gt;b__20(Object instance)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc._GetConstructorInfob__11ConstructorInfo">
+            <summary>Sets the shim of SimpleIoc.&lt;GetConstructorInfo&gt;b__11(ConstructorInfo c)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc._GetConstructorInfob__12ConstructorInfo">
+            <summary>Sets the shim of SimpleIoc.&lt;GetConstructorInfo&gt;b__12(ConstructorInfo i)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.ShimSimpleIoc._GetConstructorInfob__13ConstructorInfo">
+            <summary>Sets the shim of SimpleIoc.&lt;GetConstructorInfo&gt;b__13(ConstructorInfo i)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc">
+            <summary>Stub type of GalaSoft.MvvmLight.Ioc.ISimpleIoc</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.#ctor">
+            <summary>Initializes a new instance of type StubISimpleIoc</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.ContainsCreatedOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Boolean})">
+            <summary>Sets stubs of ContainsCreated()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.ContainsCreatedOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Boolean})">
+            <summary>Sets stubs of ContainsCreated(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#ContainsCreated``1">
+            <summary>Sets the stub of ISimpleIoc.ContainsCreated()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#ContainsCreated``1(System.String)">
+            <summary>Sets the stub of ISimpleIoc.ContainsCreated(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#IsRegistered``1">
+            <summary>Sets the stub of ISimpleIoc.IsRegistered()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#IsRegistered``1(System.String)">
+            <summary>Sets the stub of ISimpleIoc.IsRegistered(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Register``1">
+            <summary>Sets the stub of ISimpleIoc.Register()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Register``2">
+            <summary>Sets the stub of ISimpleIoc.Register()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Register``1(System.Func{``0})">
+            <summary>Sets the stub of ISimpleIoc.Register(Func`1&lt;!!0&gt; factory)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Register``1(System.Boolean)">
+            <summary>Sets the stub of ISimpleIoc.Register(Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Register``2(System.Boolean)">
+            <summary>Sets the stub of ISimpleIoc.Register(Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Register``1(System.Func{``0},System.Boolean)">
+            <summary>Sets the stub of ISimpleIoc.Register(Func`1&lt;!!0&gt; factory, Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Register``1(System.Func{``0},System.String)">
+            <summary>Sets the stub of ISimpleIoc.Register(Func`1&lt;!!0&gt; factory, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Register``1(System.Func{``0},System.String,System.Boolean)">
+            <summary>Sets the stub of ISimpleIoc.Register(Func`1&lt;!!0&gt; factory, String key, Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Reset">
+            <summary>Sets the stub of ISimpleIoc.Reset()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Unregister``1">
+            <summary>Sets the stub of ISimpleIoc.Unregister()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Unregister``1(System.String)">
+            <summary>Sets the stub of ISimpleIoc.Unregister(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GalaSoft#MvvmLight#Ioc#ISimpleIoc#Unregister``1(``0)">
+            <summary>Sets the stub of ISimpleIoc.Unregister(!!0 instance)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GetAllInstancesOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets stubs of GetAllInstances()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GetAllInstancesType">
+            <summary>Sets the stub of IServiceLocator.GetAllInstances(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GetInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>Sets stubs of GetInstance()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GetInstanceOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>Sets stubs of GetInstance(String key)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GetInstanceType">
+            <summary>Sets the stub of IServiceLocator.GetInstance(Type serviceType)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GetInstanceTypeString">
+            <summary>Sets the stub of IServiceLocator.GetInstance(Type serviceType, String key)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.GetServiceType">
+            <summary>Sets the stub of IServiceProvider.GetService(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.IsRegisteredOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Boolean})">
+            <summary>Sets stubs of IsRegistered()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.IsRegisteredOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Boolean})">
+            <summary>Sets stubs of IsRegistered(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.Microsoft#Practices#ServiceLocation#IServiceLocator#GetAllInstances(System.Type)">
+            <summary>Sets the stub of IServiceLocator.GetAllInstances(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.Microsoft#Practices#ServiceLocation#IServiceLocator#GetAllInstances``1">
+            <summary>Sets the stub of IServiceLocator.GetAllInstances()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.Microsoft#Practices#ServiceLocation#IServiceLocator#GetInstance``1">
+            <summary>Sets the stub of IServiceLocator.GetInstance()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.Microsoft#Practices#ServiceLocation#IServiceLocator#GetInstance(System.Type)">
+            <summary>Sets the stub of IServiceLocator.GetInstance(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.Microsoft#Practices#ServiceLocation#IServiceLocator#GetInstance(System.Type,System.String)">
+            <summary>Sets the stub of IServiceLocator.GetInstance(Type serviceType, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.Microsoft#Practices#ServiceLocation#IServiceLocator#GetInstance``1(System.String)">
+            <summary>Sets the stub of IServiceLocator.GetInstance(String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.RegisterOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Sets stubs of Register()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.RegisterOf1Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Boolean})">
+            <summary>Sets stubs of Register(Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.RegisterOf1FuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0}})">
+            <summary>Sets stubs of Register(Func`1&lt;!!0&gt; factory)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.RegisterOf1FuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0},System.Boolean})">
+            <summary>Sets stubs of Register(Func`1&lt;!!0&gt; factory, Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.RegisterOf1FuncOfM0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0},System.String})">
+            <summary>Sets stubs of Register(Func`1&lt;!!0&gt; factory, String key)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.RegisterOf1FuncOfM0StringBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0},System.String,System.Boolean})">
+            <summary>Sets stubs of Register(Func`1&lt;!!0&gt; factory, String key, Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.RegisterOf2``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Sets stubs of Register()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.RegisterOf2Boolean``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Boolean})">
+            <summary>Sets stubs of Register(Boolean createInstanceImmediately)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.Reset">
+            <summary>Sets the stub of ISimpleIoc.Reset()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.System#IServiceProvider#GetService(System.Type)">
+            <summary>Sets the stub of IServiceProvider.GetService(Type serviceType)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.UnregisterOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Sets stubs of Unregister()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.UnregisterOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets stubs of Unregister(!!0 instance)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubISimpleIoc.UnregisterOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String})">
+            <summary>Sets stubs of Unregister(String key)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Ioc.Fakes.StubSimpleIoc">
+            <summary>Stub type of GalaSoft.MvvmLight.Ioc.SimpleIoc</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubSimpleIoc.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.StubSimpleIoc.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Ioc.Fakes.StubSimpleIoc.InitializeStub">
+            <summary>Initializes a new instance of type StubSimpleIoc</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.StubSimpleIoc.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Ioc.Fakes.StubSimpleIoc.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

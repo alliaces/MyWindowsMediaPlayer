@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="WindowsMediaPlayer.Search"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Platform"
+             xmlns:local="clr-namespace:WindowsMediaPlayer"
+             xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" Width="363.866">
+    <UserControl.DataContext>
+        <local:SearchViewModel/>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="AutoCompleteBoxItemTemplate">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{Binding Picture}" Width="25" Height="25"/>
+                <Label
+                        Content="{Binding Title}"
+                        Width="auto"/>
+                <Label Content="{Binding Album}"/>
+                <Label Content="{Binding Artists[0]}"/>
+                <Label
+                        Content="{Binding Type}"
+                        FontStyle="Italic"
+                        Foreground="DarkGray"/>
+            </StackPanel>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Grid>
+        <StackPanel>
+        <toolkit:AutoCompleteBox
+                    ItemsSource="{Binding SearchContents}"
+                    SelectedItem="{Binding SelectedContent, Mode=TwoWay}"
+                    MinimumPrefixLength="2"
+                    FilterMode="Contains"
+                    ValueMemberPath="Title"
+                    ItemTemplate="{StaticResource AutoCompleteBoxItemTemplate}"
+                    x:Name="codeBox" Height="25" Margin="183,0,0,0" VerticalAlignment="Top" ToolTipService.ToolTip="Search.." BorderThickness="2" Background="White" BorderBrush="White">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseDoubleClick">
+                        <cmd:EventToCommand Command="{Binding DoubleClickMediaSearch}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+                <i:EventTrigger EventName="SelectionChanged">
+                        <cmd:EventToCommand Command="{Binding SelectionChangedSearch, Mode=OneWay}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+                <i:EventTrigger EventName="KeyUp">
+                        <cmd:EventToCommand Command="{Binding KeyUpMediaSearch}" PassEventArgsToCommand="True"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </toolkit:AutoCompleteBox>
+        </StackPanel>
+        <ComboBox x:Name="MediaType" HorizontalAlignment="Left" Height="25" Margin="10,0,0,0" VerticalAlignment="Top" Width="108" SelectedIndex="{Binding SelectedMedia}">
+            <ComboBoxItem x:Name="All">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/WindowsMediaPlayer;component/assets/library_cover.png" Width="13" Height="13"/>
+                    <Label Content="All Media"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem x:Name="Video">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/WindowsMediaPlayer;component/assets/video_cover.png" Width="13" Height="13"/>
+                    <Label Content="Videos"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem x:Name="Musics">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/WindowsMediaPlayer;component/assets/no_cover.png" Width="13" Height="13"/>
+                    <Label Content="Musics"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem x:Name="Images">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/WindowsMediaPlayer;component/assets/picture_cover.png" Width="13" Height="13"/>
+                    <Label Content="Pictures"/>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</UserControl>

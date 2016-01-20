@@ -1,0 +1,31 @@
+Change en (False, False, , Library.xml)
+AddToLibrary
+Change en (True, False, F:\Videos, Library.xml)
+Media F:\Videos\Collateral (2000).mkv created !
+a01a74448b5b0de158ec5089c9546526
+Image created !
+Media datas completed !
+WindowsMediaPlayer.InvalidMediaException: F:\Videos\desktop.ini is not a valid media
+   à WindowsMediaPlayer.MediaCreator.Create(String path) dans C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\MediaCreator.cs:ligne 45
+   à WindowsMediaPlayer.MediaLibrary.SelectGoodFile(String file) dans C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\MediaLibrary.cs:ligne 136
+
+Media F:\Videos\Hacker (2015).mkv created !
+da2c55e3ada227f5b5931d5b4314bd0c
+Image created !
+Media datas completed !
+Media F:\Videos\Persona 3 the movie.mp4 created !
+64b83f684a59afdba70d8eb51eb3f97a
+Image created !
+Media datas completed !
+Media F:\Videos\U2 Innocence Experience Tour Live from Paris 11.11.2015 [1080p].mp4 created !
+9430886b7f535adb392c41a11737436c
+Image created !
+Media datas completed !
+Media F:\Videos\Wildlife.wmv created !
+0024715bdf892435313d1f2156aaf2d4
+Image created !
+Media datas completed !
+WindowsMediaPlayer.InvalidMediaException: F:\Videos\Captures\desktop.ini is not a valid media
+   à WindowsMediaPlayer.MediaCreator.Create(String path) dans C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\MediaCreator.cs:ligne 45
+   à WindowsMediaPlayer.MediaLibrary.SelectGoodFile(String file) dans C:\Users\lamart_m\Documents\Projet\WMP\WindowsMediaPlayer\WindowsMediaPlayer\MediaLibrary.cs:ligne 136
+

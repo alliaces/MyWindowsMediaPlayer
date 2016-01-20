@@ -1,0 +1,174 @@
+﻿<UserControl x:Class="WindowsMediaPlayer.PlaylistView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:cmd="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Platform"
+             xmlns:local="clr-namespace:WindowsMediaPlayer"
+             DataContext="{Binding PlaylistViewModel, Source={StaticResource Locator}}" 
+             mc:Ignorable="d" Height="Auto" Width="Auto">
+    <UserControl.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FF662727"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="Bouton_type" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <ListBox x:Name="listBoxMedia" ItemsSource="{Binding ObservablePlaylist}" Margin="10,10,15,59" BorderBrush="#FF662727" AllowDrop="True">
+            <ListBox.Background>
+                <SolidColorBrush Color="#FFB4B4B4"/>
+            </ListBox.Background>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <cmd:EventToCommand Command="{Binding SelectionChangedPlaylist, Mode=OneWay}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+                <i:EventTrigger EventName="DragEnter">
+                    <cmd:EventToCommand Command="{Binding OnePlaylistDragEnter, Mode=OneWay}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+                <i:EventTrigger EventName="Drop">
+                    <cmd:EventToCommand Command="{Binding OnePlaylistDrop, Mode=OneWay}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+                <i:EventTrigger EventName="MouseDoubleClick">
+                    <cmd:EventToCommand Command="{Binding DoubleClickMediaPlaylist}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem  Command="{Binding AddPlaylist}" Header="Add Media">
+                        <MenuItem.Icon>
+                            <Image>
+                                <Image.Source>
+                                    <BitmapImage UriSource="/WindowsMediaPlayer;component/assets/add-media.png" />
+                                </Image.Source>
+                            </Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem  Command="{Binding DelPlaylist}" Header="Del Media">
+                        <MenuItem.Icon>
+                            <Image>
+                                <Image.Source>
+                                    <BitmapImage UriSource="/WindowsMediaPlayer;component/assets/delete_media.png" />
+                                </Image.Source>
+                            </Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding Picture}" Width="40" Height="40"/>
+                        <Label Content="{Binding Title}"/>
+                        <Label Content="{Binding Artists[0]}"/>
+                        <Label Content="{Binding Type}" FontStyle="Italic" Foreground="DarkGray"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ListBox x:Name="listBoxPlaylist" ItemsSource="{Binding ObservableAllPlaylists}" Margin="243,10,10,59" AllowDrop="True" Background="#FFD8D8D8" BorderBrush="#FF662727">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <cmd:EventToCommand Command="{Binding SelectionChangedAllPlaylist, Mode=OneWay}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+                <i:EventTrigger EventName="DragEnter">
+                   <cmd:EventToCommand Command="{Binding AllPlaylistDragEnter, Mode=OneWay}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+                <i:EventTrigger EventName="Drop">
+                   <cmd:EventToCommand Command="{Binding AllPlaylistDrop, Mode=OneWay}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem  Command="{Binding LoadPlaylist}" Header="Add Playlist">
+                        <MenuItem.Icon>
+                            <Image>
+                                <Image.Source>
+                                    <BitmapImage UriSource="/WindowsMediaPlayer;component/assets/add-media.png" />
+                                </Image.Source>
+                            </Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem  Command="{Binding CreatePlaylist}" Header="Create Playlist">
+                        <MenuItem.Icon>
+                            <Image>
+                                <Image.Source>
+                                    <BitmapImage UriSource="/WindowsMediaPlayer;component/assets/create_playlist.png" />
+                                </Image.Source>
+                            </Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem  Command="{Binding PlayPlaylist}" Header="Play Playlist">
+                        <MenuItem.Icon>
+                            <Image>
+                                <Image.Source>
+                                    <BitmapImage UriSource="/WindowsMediaPlayer;component/assets/play_playlist.png" />
+                                </Image.Source>
+                            </Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+        </ListBox>
+        <Button x:Name="buttonEdit" Command="{Binding EditPlaylist}" Content="Edit" HorizontalAlignment="Right" Margin="0,0,90,34" VerticalAlignment="Bottom" Width="75" Foreground="#FFC7C7C7" BorderBrush="#FF3C3C3C" Background="#FF3C3C3C" />
+        <Button x:Name="buttonSave" Command="{Binding SavePlaylist}" Content="Save" HorizontalAlignment="Right" Margin="0,0,10,34" VerticalAlignment="Bottom" Width="75" BorderBrush="#FF3C3C3C" Foreground="#FFC7C7C7" Background="#FF3C3C3C" />
+        <TextBox Visibility="{Binding CreateVisibility}" Margin="5,0,10,0" HorizontalAlignment="Center" Width="243" Height="18" VerticalAlignment="Top">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="KeyUp">
+                    <cmd:EventToCommand Command="{Binding KeyUpCreatePlaylist, Mode=OneWay}" PassEventArgsToCommand="True" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </TextBox>
+    </Grid>
+</UserControl>

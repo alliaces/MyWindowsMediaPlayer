@@ -1,0 +1,1997 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GalaSoft.MvvmLight.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand">
+            <summary>Shim type of GalaSoft.MvvmLight.Command.RelayCommand</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.#ctor(GalaSoft.MvvmLight.Command.RelayCommand)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.AllInstances.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of RelayCommand.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.AllInstances.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of RelayCommand.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.AllInstances.CanExecuteObject">
+            <summary>Sets the shim of RelayCommand.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.AllInstances.ExecuteObject">
+            <summary>Sets the shim of RelayCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.AllInstances.RaiseCanExecuteChanged">
+            <summary>Sets the shim of RelayCommand.RaiseCanExecuteChanged()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.Bind(System.Windows.Input.ICommand)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of RelayCommand.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of RelayCommand.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.CanExecuteObject">
+            <summary>Sets the shim of RelayCommand.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.ConstructorAction">
+            <summary>Sets the shim of RelayCommand.RelayCommand(Action execute)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.ConstructorActionFuncOfBoolean">
+            <summary>Sets the shim of RelayCommand.RelayCommand(Action execute, Func`1&lt;Boolean&gt; canExecute)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.ExecuteObject">
+            <summary>Sets the shim of RelayCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand.RaiseCanExecuteChanged">
+            <summary>Sets the shim of RelayCommand.RaiseCanExecuteChanged()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1">
+            <summary>Shim type of GalaSoft.MvvmLight.Command.RelayCommand`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.#ctor(GalaSoft.MvvmLight.Command.RelayCommand{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.AllInstances.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of RelayCommand`1.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.AllInstances.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of RelayCommand`1.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.AllInstances.CanExecuteObject">
+            <summary>Sets the shim of RelayCommand`1.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.AllInstances.ExecuteObject">
+            <summary>Sets the shim of RelayCommand`1.Execute(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.AllInstances.RaiseCanExecuteChanged">
+            <summary>Sets the shim of RelayCommand`1.RaiseCanExecuteChanged()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.Bind(System.Windows.Input.ICommand)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of RelayCommand`1.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of RelayCommand`1.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.CanExecuteObject">
+            <summary>Sets the shim of RelayCommand`1.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.ConstructorActionOfT0">
+            <summary>Sets the shim of RelayCommand`1.RelayCommand`1(Action`1&lt;!0&gt; execute)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.ConstructorActionOfT0FuncOfT0Boolean">
+            <summary>Sets the shim of RelayCommand`1.RelayCommand`1(Action`1&lt;!0&gt; execute, Func`2&lt;!0,Boolean&gt; canExecute)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.ExecuteObject">
+            <summary>Sets the shim of RelayCommand`1.Execute(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.ShimRelayCommand`1.RaiseCanExecuteChanged">
+            <summary>Sets the shim of RelayCommand`1.RaiseCanExecuteChanged()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand">
+            <summary>Stub type of GalaSoft.MvvmLight.Command.RelayCommand</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand.#ctor(System.Action)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand.#ctor(System.Action,System.Func{System.Boolean})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand.Execute(System.Object)">
+            <summary>Sets the stub of RelayCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand.ExecuteObject">
+            <summary>Sets the stub of RelayCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand.InitializeStub">
+            <summary>Initializes a new instance of type StubRelayCommand</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1">
+            <summary>Stub type of GalaSoft.MvvmLight.Command.RelayCommand`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1.#ctor(System.Action{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1.Execute(System.Object)">
+            <summary>Sets the stub of RelayCommand`1.Execute(Object parameter)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1.ExecuteObject">
+            <summary>Sets the stub of RelayCommand`1.Execute(Object parameter)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1.InitializeStub">
+            <summary>Initializes a new instance of type StubRelayCommand</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Command.Fakes.StubRelayCommand`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Fakes.ShimObservableObject">
+            <summary>Shim type of GalaSoft.MvvmLight.ObservableObject</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.#ctor(GalaSoft.MvvmLight.ObservableObject)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.PropertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the shim of ObservableObject.add_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.PropertyChangedHandlerGet">
+            <summary>Sets the shim of ObservableObject.get_PropertyChangedHandler()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.PropertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the shim of ObservableObject.remove_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.RaisePropertyChangedOf1ExpressionOfFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.ObservableObject,System.Linq.Expressions.Expression{System.Func{``0}}})">
+            <summary>Sets the shim of ObservableObject.RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.RaisePropertyChangedString">
+            <summary>Sets the shim of ObservableObject.RaisePropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.SetOf1ExpressionOfFuncOfM0M0RefM0``1(Microsoft.QualityTools.Testing.Fakes.Delegates.GalaSoftMvvmLightDelegates.Ref2Func5{GalaSoft.MvvmLight.ObservableObject,System.Linq.Expressions.Expression{System.Func{``0}},``0,``0,System.Boolean})">
+            <summary>Sets the shim of ObservableObject.Set(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression, !!0&amp; field, !!0 newValue)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.SetOf1M0RefM0String``1(Microsoft.QualityTools.Testing.Fakes.Delegates.GalaSoftMvvmLightDelegates.Ref1Func5{GalaSoft.MvvmLight.ObservableObject,``0,``0,System.String,System.Boolean})">
+            <summary>Sets the shim of ObservableObject.Set(!!0&amp; field, !!0 newValue, String propertyName)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.SetOf1StringM0RefM0``1(Microsoft.QualityTools.Testing.Fakes.Delegates.GalaSoftMvvmLightDelegates.Ref2Func5{GalaSoft.MvvmLight.ObservableObject,System.String,``0,``0,System.Boolean})">
+            <summary>Sets the shim of ObservableObject.Set(String propertyName, !!0&amp; field, !!0 newValue)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.AllInstances.VerifyPropertyNameString">
+            <summary>Sets the shim of ObservableObject.VerifyPropertyName(String propertyName)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.Bind(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.Constructor">
+            <summary>Sets the shim of ObservableObject.ObservableObject()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.GetPropertyNameOf1ExpressionOfFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0}},System.String})">
+            <summary>Sets the shim of ObservableObject.GetPropertyName(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.PropertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the shim of ObservableObject.add_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.PropertyChangedHandlerGet">
+            <summary>Sets the shim of ObservableObject.get_PropertyChangedHandler()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.PropertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the shim of ObservableObject.remove_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimObservableObject.RaisePropertyChangedOf1ExpressionOfFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Linq.Expressions.Expression{System.Func{``0}}})">
+            <summary>Sets the shim of ObservableObject.RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.RaisePropertyChangedString">
+            <summary>Sets the shim of ObservableObject.RaisePropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimObservableObject.VerifyPropertyNameString">
+            <summary>Sets the shim of ObservableObject.VerifyPropertyName(String propertyName)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Fakes.ShimViewModelBase">
+            <summary>Shim type of GalaSoft.MvvmLight.ViewModelBase</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.#ctor(GalaSoft.MvvmLight.ViewModelBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.BroadcastOf1M0M0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.ViewModelBase,``0,``0,System.String})">
+            <summary>Sets the shim of ViewModelBase.Broadcast(!!0 oldValue, !!0 newValue, String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.Cleanup">
+            <summary>Sets the shim of ViewModelBase.Cleanup()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.IsInDesignModeGet">
+            <summary>Sets the shim of ViewModelBase.get_IsInDesignMode()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.MessengerInstanceGet">
+            <summary>Sets the shim of ViewModelBase.get_MessengerInstance()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.MessengerInstanceSetIMessenger">
+            <summary>Sets the shim of ViewModelBase.set_MessengerInstance(IMessenger value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.RaisePropertyChangedOf1ExpressionOfFuncOfM0M0M0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.ViewModelBase,System.Linq.Expressions.Expression{System.Func{``0}},``0,``0,System.Boolean})">
+            <summary>Sets the shim of ViewModelBase.RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression, !!0 oldValue, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.RaisePropertyChangedOf1StringM0M0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.ViewModelBase,System.String,``0,``0,System.Boolean})">
+            <summary>Sets the shim of ViewModelBase.RaisePropertyChanged(String propertyName, !!0 oldValue, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.SetOf1ExpressionOfFuncOfM0M0RefM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.Delegates.GalaSoftMvvmLightDelegates.Ref2Func6{GalaSoft.MvvmLight.ViewModelBase,System.Linq.Expressions.Expression{System.Func{``0}},``0,``0,System.Boolean,System.Boolean})">
+            <summary>Sets the shim of ViewModelBase.Set(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression, !!0&amp; field, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.SetOf1M0RefM0BooleanString``1(Microsoft.QualityTools.Testing.Fakes.Delegates.GalaSoftMvvmLightDelegates.Ref1Func6{GalaSoft.MvvmLight.ViewModelBase,``0,``0,System.Boolean,System.String,System.Boolean})">
+            <summary>Sets the shim of ViewModelBase.Set(!!0&amp; field, !!0 newValue, Boolean broadcast, String propertyName)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.AllInstances.SetOf1StringM0RefM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.Delegates.GalaSoftMvvmLightDelegates.Ref2Func6{GalaSoft.MvvmLight.ViewModelBase,System.String,``0,``0,System.Boolean,System.Boolean})">
+            <summary>Sets the shim of ViewModelBase.Set(String propertyName, !!0&amp; field, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.Bind(GalaSoft.MvvmLight.ICleanup)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.Bind(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.BroadcastOf1M0M0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,``0,System.String})">
+            <summary>Sets the shim of ViewModelBase.Broadcast(!!0 oldValue, !!0 newValue, String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.Cleanup">
+            <summary>Sets the shim of ViewModelBase.Cleanup()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.Constructor">
+            <summary>Sets the shim of ViewModelBase.ViewModelBase()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.ConstructorIMessenger">
+            <summary>Sets the shim of ViewModelBase.ViewModelBase(IMessenger messenger)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.IsInDesignModeGet">
+            <summary>Sets the shim of ViewModelBase.get_IsInDesignMode()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.IsInDesignModeMetro">
+            <summary>Sets the shim of ViewModelBase.IsInDesignModeMetro()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.IsInDesignModeNet">
+            <summary>Sets the shim of ViewModelBase.IsInDesignModeNet()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.IsInDesignModePortable">
+            <summary>Sets the shim of ViewModelBase.IsInDesignModePortable()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.IsInDesignModeSilverlight">
+            <summary>Sets the shim of ViewModelBase.IsInDesignModeSilverlight()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.IsInDesignModeStaticGet">
+            <summary>Sets the shim of ViewModelBase.get_IsInDesignModeStatic()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.MessengerInstanceGet">
+            <summary>Sets the shim of ViewModelBase.get_MessengerInstance()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.MessengerInstanceSetIMessenger">
+            <summary>Sets the shim of ViewModelBase.set_MessengerInstance(IMessenger value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.RaisePropertyChangedOf1ExpressionOfFuncOfM0M0M0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Linq.Expressions.Expression{System.Func{``0}},``0,``0,System.Boolean})">
+            <summary>Sets the shim of ViewModelBase.RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression, !!0 oldValue, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.ShimViewModelBase.RaisePropertyChangedOf1StringM0M0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0,``0,System.Boolean})">
+            <summary>Sets the shim of ViewModelBase.RaisePropertyChanged(String propertyName, !!0 oldValue, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.ShimViewModelBase._IsInDesignModeNetb__0MethodInfo">
+            <summary>Sets the shim of ViewModelBase.&lt;IsInDesignModeNet&gt;b__0(MethodInfo mi)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Fakes.StubICleanup">
+            <summary>Stub type of GalaSoft.MvvmLight.ICleanup</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubICleanup.#ctor">
+            <summary>Initializes a new instance of type StubICleanup</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Fakes.StubICleanup.Cleanup">
+            <summary>Sets the stub of ICleanup.Cleanup()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubICleanup.GalaSoft#MvvmLight#ICleanup#Cleanup">
+            <summary>Sets the stub of ICleanup.Cleanup()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Fakes.StubObservableObject">
+            <summary>Stub type of GalaSoft.MvvmLight.ObservableObject</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubObservableObject.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.StubObservableObject.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubObservableObject.InitializeStub">
+            <summary>Initializes a new instance of type StubObservableObject</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.StubObservableObject.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.StubObservableObject.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubObservableObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>Sets the stub of ObservableObject.RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubObservableObject.RaisePropertyChanged(System.String)">
+            <summary>Sets the stub of ObservableObject.RaisePropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubObservableObject.RaisePropertyChangedOf1ExpressionOfFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Linq.Expressions.Expression{System.Func{``0}}})">
+            <summary>Sets stubs of RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Fakes.StubObservableObject.RaisePropertyChangedString">
+            <summary>Sets the stub of ObservableObject.RaisePropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Fakes.StubViewModelBase">
+            <summary>Stub type of GalaSoft.MvvmLight.ViewModelBase</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.#ctor(GalaSoft.MvvmLight.Messaging.IMessenger)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.Broadcast``1(``0,``0,System.String)">
+            <summary>Sets the stub of ViewModelBase.Broadcast(!!0 oldValue, !!0 newValue, String propertyName)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.BroadcastOf1M0M0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,``0,System.String})">
+            <summary>Sets stubs of Broadcast(!!0 oldValue, !!0 newValue, String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.StubViewModelBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.Cleanup">
+            <summary>Sets the stub of ViewModelBase.Cleanup()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Fakes.StubViewModelBase.Cleanup01">
+            <summary>Sets the stub of ViewModelBase.Cleanup()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.InitializeStub">
+            <summary>Initializes a new instance of type StubViewModelBase</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.StubViewModelBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Fakes.StubViewModelBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>Sets the stub of ObservableObject.RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.RaisePropertyChanged(System.String)">
+            <summary>Sets the stub of ObservableObject.RaisePropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}},``0,``0,System.Boolean)">
+            <summary>Sets the stub of ViewModelBase.RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression, !!0 oldValue, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.RaisePropertyChanged``1(System.String,``0,``0,System.Boolean)">
+            <summary>Sets the stub of ViewModelBase.RaisePropertyChanged(String propertyName, !!0 oldValue, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.RaisePropertyChangedOf1ExpressionOfFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Linq.Expressions.Expression{System.Func{``0}}})">
+            <summary>Sets stubs of RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.RaisePropertyChangedOf1ExpressionOfFuncOfM0M0M0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Linq.Expressions.Expression{System.Func{``0}},``0,``0,System.Boolean})">
+            <summary>Sets stubs of RaisePropertyChanged(Expression`1&lt;Func`1&lt;!!0&gt;&gt; propertyExpression, !!0 oldValue, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Fakes.StubViewModelBase.RaisePropertyChangedOf1StringM0M0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.String,``0,``0,System.Boolean})">
+            <summary>Sets stubs of RaisePropertyChanged(String propertyName, !!0 oldValue, !!0 newValue, Boolean broadcast)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Fakes.StubViewModelBase.RaisePropertyChangedString">
+            <summary>Sets the stub of ObservableObject.RaisePropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimEmpty">
+            <summary>Shim type of GalaSoft.MvvmLight.Helpers.Empty</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimEmpty.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimEmpty.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimEmpty.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimEmpty.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimEmpty.StaticConstructor">
+            <summary>Sets the shim of Empty.Empty()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimEmpty.TaskGet">
+            <summary>Sets the shim of Empty.get_Task()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimEmpty._cctorb__0">
+            <summary>Sets the shim of Empty.&lt;.cctor&gt;b__0()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction">
+            <summary>Shim type of GalaSoft.MvvmLight.Helpers.WeakAction</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.#ctor(GalaSoft.MvvmLight.Helpers.WeakAction)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.ActionReferenceGet">
+            <summary>Sets the shim of WeakAction.get_ActionReference()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.ActionReferenceSetWeakReference">
+            <summary>Sets the shim of WeakAction.set_ActionReference(WeakReference value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.ActionTargetGet">
+            <summary>Sets the shim of WeakAction.get_ActionTarget()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.ActionReferenceGet">
+            <summary>Sets the shim of WeakAction.get_ActionReference()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.ActionReferenceSetWeakReference">
+            <summary>Sets the shim of WeakAction.set_ActionReference(WeakReference value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.ActionTargetGet">
+            <summary>Sets the shim of WeakAction.get_ActionTarget()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.Execute">
+            <summary>Sets the shim of WeakAction.Execute()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.IsAliveGet">
+            <summary>Sets the shim of WeakAction.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.IsStaticGet">
+            <summary>Sets the shim of WeakAction.get_IsStatic()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.MarkForDeletion">
+            <summary>Sets the shim of WeakAction.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.MethodGet">
+            <summary>Sets the shim of WeakAction.get_Method()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.MethodNameGet">
+            <summary>Sets the shim of WeakAction.get_MethodName()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.MethodSetMethodInfo">
+            <summary>Sets the shim of WeakAction.set_Method(MethodInfo value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.ReferenceGet">
+            <summary>Sets the shim of WeakAction.get_Reference()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.ReferenceSetWeakReference">
+            <summary>Sets the shim of WeakAction.set_Reference(WeakReference value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.AllInstances.TargetGet">
+            <summary>Sets the shim of WeakAction.get_Target()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.Constructor">
+            <summary>Sets the shim of WeakAction.WeakAction()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.ConstructorAction">
+            <summary>Sets the shim of WeakAction.WeakAction(Action action)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.ConstructorObjectAction">
+            <summary>Sets the shim of WeakAction.WeakAction(Object target, Action action)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.Execute">
+            <summary>Sets the shim of WeakAction.Execute()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.IsAliveGet">
+            <summary>Sets the shim of WeakAction.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.IsStaticGet">
+            <summary>Sets the shim of WeakAction.get_IsStatic()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.MarkForDeletion">
+            <summary>Sets the shim of WeakAction.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.MethodGet">
+            <summary>Sets the shim of WeakAction.get_Method()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.MethodNameGet">
+            <summary>Sets the shim of WeakAction.get_MethodName()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.MethodSetMethodInfo">
+            <summary>Sets the shim of WeakAction.set_Method(MethodInfo value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.ReferenceGet">
+            <summary>Sets the shim of WeakAction.get_Reference()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.ReferenceSetWeakReference">
+            <summary>Sets the shim of WeakAction.set_Reference(WeakReference value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction.TargetGet">
+            <summary>Sets the shim of WeakAction.get_Target()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1">
+            <summary>Shim type of GalaSoft.MvvmLight.Helpers.WeakAction`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.#ctor(GalaSoft.MvvmLight.Helpers.WeakAction{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.AllInstances.Execute">
+            <summary>Sets the shim of WeakAction`1.Execute()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.AllInstances.ExecuteT0">
+            <summary>Sets the shim of WeakAction`1.Execute(!0 parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.AllInstances.ExecuteWithObjectObject">
+            <summary>Sets the shim of WeakAction`1.ExecuteWithObject(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.AllInstances.IsAliveGet">
+            <summary>Sets the shim of WeakAction`1.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.AllInstances.MarkForDeletion">
+            <summary>Sets the shim of WeakAction`1.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.AllInstances.MethodNameGet">
+            <summary>Sets the shim of WeakAction`1.get_MethodName()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.Bind(GalaSoft.MvvmLight.Helpers.IExecuteWithObject)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.ConstructorActionOfT0">
+            <summary>Sets the shim of WeakAction`1.WeakAction`1(Action`1&lt;!0&gt; action)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.ConstructorObjectActionOfT0">
+            <summary>Sets the shim of WeakAction`1.WeakAction`1(Object target, Action`1&lt;!0&gt; action)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.Execute">
+            <summary>Sets the shim of WeakAction`1.Execute()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.ExecuteT0">
+            <summary>Sets the shim of WeakAction`1.Execute(!0 parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.ExecuteWithObjectObject">
+            <summary>Sets the shim of WeakAction`1.ExecuteWithObject(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.IsAliveGet">
+            <summary>Sets the shim of WeakAction`1.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.MarkForDeletion">
+            <summary>Sets the shim of WeakAction`1.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakAction`1.MethodNameGet">
+            <summary>Sets the shim of WeakAction`1.get_MethodName()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1">
+            <summary>Shim type of GalaSoft.MvvmLight.Helpers.WeakFunc`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.#ctor(GalaSoft.MvvmLight.Helpers.WeakFunc{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.Execute">
+            <summary>Sets the shim of WeakFunc`1.Execute()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.FuncReferenceGet">
+            <summary>Sets the shim of WeakFunc`1.get_FuncReference()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.FuncReferenceSetWeakReference">
+            <summary>Sets the shim of WeakFunc`1.set_FuncReference(WeakReference value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.FuncTargetGet">
+            <summary>Sets the shim of WeakFunc`1.get_FuncTarget()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.IsAliveGet">
+            <summary>Sets the shim of WeakFunc`1.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.IsStaticGet">
+            <summary>Sets the shim of WeakFunc`1.get_IsStatic()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.MarkForDeletion">
+            <summary>Sets the shim of WeakFunc`1.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.MethodGet">
+            <summary>Sets the shim of WeakFunc`1.get_Method()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.MethodNameGet">
+            <summary>Sets the shim of WeakFunc`1.get_MethodName()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.MethodSetMethodInfo">
+            <summary>Sets the shim of WeakFunc`1.set_Method(MethodInfo value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.ReferenceGet">
+            <summary>Sets the shim of WeakFunc`1.get_Reference()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.ReferenceSetWeakReference">
+            <summary>Sets the shim of WeakFunc`1.set_Reference(WeakReference value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.AllInstances.TargetGet">
+            <summary>Sets the shim of WeakFunc`1.get_Target()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.Constructor">
+            <summary>Sets the shim of WeakFunc`1.WeakFunc`1()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.ConstructorFuncOfT0">
+            <summary>Sets the shim of WeakFunc`1.WeakFunc`1(Func`1&lt;!0&gt; func)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.ConstructorObjectFuncOfT0">
+            <summary>Sets the shim of WeakFunc`1.WeakFunc`1(Object target, Func`1&lt;!0&gt; func)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.Execute">
+            <summary>Sets the shim of WeakFunc`1.Execute()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.FuncReferenceGet">
+            <summary>Sets the shim of WeakFunc`1.get_FuncReference()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.FuncReferenceSetWeakReference">
+            <summary>Sets the shim of WeakFunc`1.set_FuncReference(WeakReference value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.FuncTargetGet">
+            <summary>Sets the shim of WeakFunc`1.get_FuncTarget()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.IsAliveGet">
+            <summary>Sets the shim of WeakFunc`1.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.IsStaticGet">
+            <summary>Sets the shim of WeakFunc`1.get_IsStatic()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.MarkForDeletion">
+            <summary>Sets the shim of WeakFunc`1.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.MethodGet">
+            <summary>Sets the shim of WeakFunc`1.get_Method()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.MethodNameGet">
+            <summary>Sets the shim of WeakFunc`1.get_MethodName()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.MethodSetMethodInfo">
+            <summary>Sets the shim of WeakFunc`1.set_Method(MethodInfo value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.ReferenceGet">
+            <summary>Sets the shim of WeakFunc`1.get_Reference()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.ReferenceSetWeakReference">
+            <summary>Sets the shim of WeakFunc`1.set_Reference(WeakReference value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`1.TargetGet">
+            <summary>Sets the shim of WeakFunc`1.get_Target()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2">
+            <summary>Shim type of GalaSoft.MvvmLight.Helpers.WeakFunc`2</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.#ctor(GalaSoft.MvvmLight.Helpers.WeakFunc{`0,`1})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.AllInstances.Execute">
+            <summary>Sets the shim of WeakFunc`2.Execute()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.AllInstances.ExecuteT0">
+            <summary>Sets the shim of WeakFunc`2.Execute(!0 parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.AllInstances.ExecuteWithObjectObject">
+            <summary>Sets the shim of WeakFunc`2.ExecuteWithObject(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.AllInstances.IsAliveGet">
+            <summary>Sets the shim of WeakFunc`2.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.AllInstances.MarkForDeletion">
+            <summary>Sets the shim of WeakFunc`2.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.AllInstances.MethodNameGet">
+            <summary>Sets the shim of WeakFunc`2.get_MethodName()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.Bind(GalaSoft.MvvmLight.Helpers.IExecuteWithObjectAndResult)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.ConstructorFuncOfT0T1">
+            <summary>Sets the shim of WeakFunc`2.WeakFunc`2(Func`2&lt;!0,!1&gt; func)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.ConstructorObjectFuncOfT0T1">
+            <summary>Sets the shim of WeakFunc`2.WeakFunc`2(Object target, Func`2&lt;!0,!1&gt; func)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.Execute">
+            <summary>Sets the shim of WeakFunc`2.Execute()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.ExecuteT0">
+            <summary>Sets the shim of WeakFunc`2.Execute(!0 parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.ExecuteWithObjectObject">
+            <summary>Sets the shim of WeakFunc`2.ExecuteWithObject(Object parameter)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.IsAliveGet">
+            <summary>Sets the shim of WeakFunc`2.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.MarkForDeletion">
+            <summary>Sets the shim of WeakFunc`2.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.ShimWeakFunc`2.MethodNameGet">
+            <summary>Sets the shim of WeakFunc`2.get_MethodName()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObject">
+            <summary>Stub type of GalaSoft.MvvmLight.Helpers.IExecuteWithObject</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObject.#ctor">
+            <summary>Initializes a new instance of type StubIExecuteWithObject</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObject.ExecuteWithObjectObject">
+            <summary>Sets the stub of IExecuteWithObject.ExecuteWithObject(Object parameter)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObject.GalaSoft#MvvmLight#Helpers#IExecuteWithObject#ExecuteWithObject(System.Object)">
+            <summary>Sets the stub of IExecuteWithObject.ExecuteWithObject(Object parameter)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObject.GalaSoft#MvvmLight#Helpers#IExecuteWithObject#MarkForDeletion">
+            <summary>Sets the stub of IExecuteWithObject.MarkForDeletion()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObject.MarkForDeletion">
+            <summary>Sets the stub of IExecuteWithObject.MarkForDeletion()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObject.GalaSoft#MvvmLight#Helpers#IExecuteWithObject#Target">
+            <summary>Sets the stub of IExecuteWithObject.get_Target()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObject.TargetGet">
+            <summary>Sets the stub of IExecuteWithObject.get_Target()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObjectAndResult">
+            <summary>Stub type of GalaSoft.MvvmLight.Helpers.IExecuteWithObjectAndResult</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObjectAndResult.#ctor">
+            <summary>Initializes a new instance of type StubIExecuteWithObjectAndResult</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObjectAndResult.ExecuteWithObjectObject">
+            <summary>Sets the stub of IExecuteWithObjectAndResult.ExecuteWithObject(Object parameter)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubIExecuteWithObjectAndResult.GalaSoft#MvvmLight#Helpers#IExecuteWithObjectAndResult#ExecuteWithObject(System.Object)">
+            <summary>Sets the stub of IExecuteWithObjectAndResult.ExecuteWithObject(Object parameter)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction">
+            <summary>Stub type of GalaSoft.MvvmLight.Helpers.WeakAction</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.#ctor(System.Action)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.#ctor(System.Object,System.Action)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.InitializeStub">
+            <summary>Initializes a new instance of type StubWeakAction</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.IsAlive">
+            <summary>Sets the stub of WeakAction.get_IsAlive()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.IsAliveGet">
+            <summary>Sets the stub of WeakAction.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.MethodName">
+            <summary>Sets the stub of WeakAction.get_MethodName()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction.MethodNameGet">
+            <summary>Sets the stub of WeakAction.get_MethodName()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1">
+            <summary>Stub type of GalaSoft.MvvmLight.Helpers.WeakAction`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.#ctor(System.Action{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.#ctor(System.Object,System.Action{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.InitializeStub">
+            <summary>Initializes a new instance of type StubWeakAction</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.IsAlive">
+            <summary>Sets the stub of WeakAction`1.get_IsAlive()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.IsAliveGet">
+            <summary>Sets the stub of WeakAction`1.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.MethodName">
+            <summary>Sets the stub of WeakAction`1.get_MethodName()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakAction`1.MethodNameGet">
+            <summary>Sets the stub of WeakAction`1.get_MethodName()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1">
+            <summary>Stub type of GalaSoft.MvvmLight.Helpers.WeakFunc`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.#ctor(System.Func{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.#ctor(System.Object,System.Func{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.InitializeStub">
+            <summary>Initializes a new instance of type StubWeakFunc</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.IsAlive">
+            <summary>Sets the stub of WeakFunc`1.get_IsAlive()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.IsAliveGet">
+            <summary>Sets the stub of WeakFunc`1.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.MethodName">
+            <summary>Sets the stub of WeakFunc`1.get_MethodName()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`1.MethodNameGet">
+            <summary>Sets the stub of WeakFunc`1.get_MethodName()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2">
+            <summary>Stub type of GalaSoft.MvvmLight.Helpers.WeakFunc`2</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.#ctor(System.Func{`0,`1})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.#ctor(System.Object,System.Func{`0,`1})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.InitializeStub">
+            <summary>Initializes a new instance of type StubWeakFunc</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.IsAlive">
+            <summary>Sets the stub of WeakFunc`2.get_IsAlive()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.IsAliveGet">
+            <summary>Sets the stub of WeakFunc`2.get_IsAlive()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.MethodName">
+            <summary>Sets the stub of WeakFunc`2.get_MethodName()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Helpers.Fakes.StubWeakFunc`2.MethodNameGet">
+            <summary>Sets the stub of WeakFunc`2.get_MethodName()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.GenericMessage`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.#ctor(GalaSoft.MvvmLight.Messaging.GenericMessage{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.AllInstances.ContentGet">
+            <summary>Sets the shim of GenericMessage`1.get_Content()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.AllInstances.ContentSetT0">
+            <summary>Sets the shim of GenericMessage`1.set_Content(!0 value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.ConstructorObjectObjectT0">
+            <summary>Sets the shim of GenericMessage`1.GenericMessage`1(Object sender, Object target, !0 content)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.ConstructorObjectT0">
+            <summary>Sets the shim of GenericMessage`1.GenericMessage`1(Object sender, !0 content)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.ConstructorT0">
+            <summary>Sets the shim of GenericMessage`1.GenericMessage`1(!0 content)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.ContentGet">
+            <summary>Sets the shim of GenericMessage`1.get_Content()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimGenericMessage`1.ContentSetT0">
+            <summary>Sets the shim of GenericMessage`1.set_Content(!0 value)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.MessageBase</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.#ctor(GalaSoft.MvvmLight.Messaging.MessageBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.AllInstances.SenderGet">
+            <summary>Sets the shim of MessageBase.get_Sender()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.AllInstances.SenderSetObject">
+            <summary>Sets the shim of MessageBase.set_Sender(Object value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.AllInstances.TargetGet">
+            <summary>Sets the shim of MessageBase.get_Target()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.AllInstances.TargetSetObject">
+            <summary>Sets the shim of MessageBase.set_Target(Object value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.Constructor">
+            <summary>Sets the shim of MessageBase.MessageBase()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.ConstructorObject">
+            <summary>Sets the shim of MessageBase.MessageBase(Object sender)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.ConstructorObjectObject">
+            <summary>Sets the shim of MessageBase.MessageBase(Object sender, Object target)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.SenderGet">
+            <summary>Sets the shim of MessageBase.get_Sender()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.SenderSetObject">
+            <summary>Sets the shim of MessageBase.set_Sender(Object value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.TargetGet">
+            <summary>Sets the shim of MessageBase.get_Target()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessageBase.TargetSetObject">
+            <summary>Sets the shim of MessageBase.set_Target(Object value)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.Messenger</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.#ctor(GalaSoft.MvvmLight.Messaging.Messenger)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.Cleanup">
+            <summary>Sets the shim of Messenger.Cleanup()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.RegisterOf1ObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,System.Object,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Register(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.RegisterOf1ObjectBooleanActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,System.Object,System.Boolean,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Register(Object recipient, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.RegisterOf1ObjectObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,System.Object,System.Object,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Register(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.RegisterOf1ObjectObjectBooleanActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,System.Object,System.Object,System.Boolean,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Register(Object recipient, Object token, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.RequestCleanup">
+            <summary>Sets the shim of Messenger.RequestCleanup()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.ResetAll">
+            <summary>Sets the shim of Messenger.ResetAll()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.SendOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,``0})">
+            <summary>Sets the shim of Messenger.Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.SendOf1M0Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,``0,System.Object})">
+            <summary>Sets the shim of Messenger.Send(!!0 message, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.SendOf2M0``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,``0})">
+            <summary>Sets the shim of Messenger.Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.SendToTargetOrTypeOf1M0TypeObject``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,``0,System.Type,System.Object})">
+            <summary>Sets the shim of Messenger.SendToTargetOrType(!!0 message, Type messageTargetType, Object token)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.UnregisterObject">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.UnregisterOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,System.Object})">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.UnregisterOf1ObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,System.Object,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.UnregisterOf1ObjectObject``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,System.Object,System.Object})">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.AllInstances.UnregisterOf1ObjectObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.Messaging.Messenger,System.Object,System.Object,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.Bind(GalaSoft.MvvmLight.Messaging.IMessenger)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.Cleanup">
+            <summary>Sets the shim of Messenger.Cleanup()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.Constructor">
+            <summary>Sets the shim of Messenger.Messenger()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.DefaultGet">
+            <summary>Sets the shim of Messenger.get_Default()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.OverrideDefaultIMessenger">
+            <summary>Sets the shim of Messenger.OverrideDefault(IMessenger newMessenger)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.RegisterOf1ObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Register(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.RegisterOf1ObjectBooleanActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Boolean,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Register(Object recipient, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.RegisterOf1ObjectObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Register(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.RegisterOf1ObjectObjectBooleanActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Boolean,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Register(Object recipient, Object token, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.RequestCleanup">
+            <summary>Sets the shim of Messenger.RequestCleanup()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.Reset">
+            <summary>Sets the shim of Messenger.Reset()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.ResetAll">
+            <summary>Sets the shim of Messenger.ResetAll()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.SendOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets the shim of Messenger.Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.SendOf1M0Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.Object})">
+            <summary>Sets the shim of Messenger.Send(!!0 message, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.SendOf2M0``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets the shim of Messenger.Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.SendToTargetOrTypeOf1M0TypeObject``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.Type,System.Object})">
+            <summary>Sets the shim of Messenger.SendToTargetOrType(!!0 message, Type messageTargetType, Object token)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.StaticConstructor">
+            <summary>Sets the shim of Messenger.Messenger()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.UnregisterObject">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.UnregisterOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object})">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.UnregisterOf1ObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.UnregisterOf1ObjectObject``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object})">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimMessenger.UnregisterOf1ObjectObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Action{``0}})">
+            <summary>Sets the shim of Messenger.Unregister(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.NotificationMessage</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.#ctor(GalaSoft.MvvmLight.Messaging.NotificationMessage)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.AllInstances.NotificationGet">
+            <summary>Sets the shim of NotificationMessage.get_Notification()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.AllInstances.NotificationSetString">
+            <summary>Sets the shim of NotificationMessage.set_Notification(String value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.ConstructorObjectObjectString">
+            <summary>Sets the shim of NotificationMessage.NotificationMessage(Object sender, Object target, String notification)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.ConstructorObjectString">
+            <summary>Sets the shim of NotificationMessage.NotificationMessage(Object sender, String notification)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.ConstructorString">
+            <summary>Sets the shim of NotificationMessage.NotificationMessage(String notification)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.NotificationGet">
+            <summary>Sets the shim of NotificationMessage.get_Notification()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage.NotificationSetString">
+            <summary>Sets the shim of NotificationMessage.set_Notification(String value)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.NotificationMessage`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.#ctor(GalaSoft.MvvmLight.Messaging.NotificationMessage{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.AllInstances.NotificationGet">
+            <summary>Sets the shim of NotificationMessage`1.get_Notification()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.AllInstances.NotificationSetString">
+            <summary>Sets the shim of NotificationMessage`1.set_Notification(String value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.ConstructorObjectObjectT0String">
+            <summary>Sets the shim of NotificationMessage`1.NotificationMessage`1(Object sender, Object target, !0 content, String notification)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.ConstructorObjectT0String">
+            <summary>Sets the shim of NotificationMessage`1.NotificationMessage`1(Object sender, !0 content, String notification)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.ConstructorT0String">
+            <summary>Sets the shim of NotificationMessage`1.NotificationMessage`1(!0 content, String notification)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.NotificationGet">
+            <summary>Sets the shim of NotificationMessage`1.get_Notification()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessage`1.NotificationSetString">
+            <summary>Sets the shim of NotificationMessage`1.set_Notification(String value)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.NotificationMessageAction</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.#ctor(GalaSoft.MvvmLight.Messaging.NotificationMessageAction)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.AllInstances.Execute">
+            <summary>Sets the shim of NotificationMessageAction.Execute()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.ConstructorObjectObjectStringAction">
+            <summary>Sets the shim of NotificationMessageAction.NotificationMessageAction(Object sender, Object target, String notification, Action callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.ConstructorObjectStringAction">
+            <summary>Sets the shim of NotificationMessageAction.NotificationMessageAction(Object sender, String notification, Action callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.ConstructorStringAction">
+            <summary>Sets the shim of NotificationMessageAction.NotificationMessageAction(String notification, Action callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction.Execute">
+            <summary>Sets the shim of NotificationMessageAction.Execute()</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.NotificationMessageAction`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.#ctor(GalaSoft.MvvmLight.Messaging.NotificationMessageAction{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.AllInstances.ExecuteT0">
+            <summary>Sets the shim of NotificationMessageAction`1.Execute(!0 parameter)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.ConstructorObjectObjectStringActionOfT0">
+            <summary>Sets the shim of NotificationMessageAction`1.NotificationMessageAction`1(Object sender, Object target, String notification, Action`1&lt;!0&gt; callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.ConstructorObjectStringActionOfT0">
+            <summary>Sets the shim of NotificationMessageAction`1.NotificationMessageAction`1(Object sender, String notification, Action`1&lt;!0&gt; callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.ConstructorStringActionOfT0">
+            <summary>Sets the shim of NotificationMessageAction`1.NotificationMessageAction`1(String notification, Action`1&lt;!0&gt; callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageAction`1.ExecuteT0">
+            <summary>Sets the shim of NotificationMessageAction`1.Execute(!0 parameter)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.NotificationMessageWithCallback</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.#ctor(GalaSoft.MvvmLight.Messaging.NotificationMessageWithCallback)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.AllInstances.ExecuteObjectArray">
+            <summary>Sets the shim of NotificationMessageWithCallback.Execute(Object[] arguments)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.CheckCallbackDelegate">
+            <summary>Sets the shim of NotificationMessageWithCallback.CheckCallback(Delegate callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.ConstructorObjectObjectStringDelegate">
+            <summary>Sets the shim of NotificationMessageWithCallback.NotificationMessageWithCallback(Object sender, Object target, String notification, Delegate callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.ConstructorObjectStringDelegate">
+            <summary>Sets the shim of NotificationMessageWithCallback.NotificationMessageWithCallback(Object sender, String notification, Delegate callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.ConstructorStringDelegate">
+            <summary>Sets the shim of NotificationMessageWithCallback.NotificationMessageWithCallback(String notification, Delegate callback)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimNotificationMessageWithCallback.ExecuteObjectArray">
+            <summary>Sets the shim of NotificationMessageWithCallback.Execute(Object[] arguments)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.PropertyChangedMessage`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.#ctor(GalaSoft.MvvmLight.Messaging.PropertyChangedMessage{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.AllInstances.NewValueGet">
+            <summary>Sets the shim of PropertyChangedMessage`1.get_NewValue()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.AllInstances.NewValueSetT0">
+            <summary>Sets the shim of PropertyChangedMessage`1.set_NewValue(!0 value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.AllInstances.OldValueGet">
+            <summary>Sets the shim of PropertyChangedMessage`1.get_OldValue()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.AllInstances.OldValueSetT0">
+            <summary>Sets the shim of PropertyChangedMessage`1.set_OldValue(!0 value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.ConstructorObjectObjectT0T0String">
+            <summary>Sets the shim of PropertyChangedMessage`1.PropertyChangedMessage`1(Object sender, Object target, !0 oldValue, !0 newValue, String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.ConstructorObjectT0T0String">
+            <summary>Sets the shim of PropertyChangedMessage`1.PropertyChangedMessage`1(Object sender, !0 oldValue, !0 newValue, String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.ConstructorT0T0String">
+            <summary>Sets the shim of PropertyChangedMessage`1.PropertyChangedMessage`1(!0 oldValue, !0 newValue, String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.NewValueGet">
+            <summary>Sets the shim of PropertyChangedMessage`1.get_NewValue()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.NewValueSetT0">
+            <summary>Sets the shim of PropertyChangedMessage`1.set_NewValue(!0 value)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.OldValueGet">
+            <summary>Sets the shim of PropertyChangedMessage`1.get_OldValue()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessage`1.OldValueSetT0">
+            <summary>Sets the shim of PropertyChangedMessage`1.set_OldValue(!0 value)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase">
+            <summary>Shim type of GalaSoft.MvvmLight.Messaging.PropertyChangedMessageBase</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.#ctor(GalaSoft.MvvmLight.Messaging.PropertyChangedMessageBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.AllInstances.PropertyNameGet">
+            <summary>Sets the shim of PropertyChangedMessageBase.get_PropertyName()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.AllInstances.PropertyNameSetString">
+            <summary>Sets the shim of PropertyChangedMessageBase.set_PropertyName(String value)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.ConstructorObjectObjectString">
+            <summary>Sets the shim of PropertyChangedMessageBase.PropertyChangedMessageBase(Object sender, Object target, String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.ConstructorObjectString">
+            <summary>Sets the shim of PropertyChangedMessageBase.PropertyChangedMessageBase(Object sender, String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.ConstructorString">
+            <summary>Sets the shim of PropertyChangedMessageBase.PropertyChangedMessageBase(String propertyName)</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.PropertyNameGet">
+            <summary>Sets the shim of PropertyChangedMessageBase.get_PropertyName()</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.ShimPropertyChangedMessageBase.PropertyNameSetString">
+            <summary>Sets the shim of PropertyChangedMessageBase.set_PropertyName(String value)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubGenericMessage`1">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.GenericMessage`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubGenericMessage`1.#ctor(`0)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubGenericMessage`1.#ctor(System.Object,`0)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubGenericMessage`1.#ctor(System.Object,System.Object,`0)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubGenericMessage`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubGenericMessage`1.InitializeStub">
+            <summary>Initializes a new instance of type StubGenericMessage</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubGenericMessage`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubGenericMessage`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.IMessenger</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.#ctor">
+            <summary>Initializes a new instance of type StubIMessenger</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Register``1(System.Object,System.Action{``0})">
+            <summary>Sets the stub of IMessenger.Register(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Register``1(System.Object,System.Object,System.Action{``0})">
+            <summary>Sets the stub of IMessenger.Register(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Register``1(System.Object,System.Boolean,System.Action{``0})">
+            <summary>Sets the stub of IMessenger.Register(Object recipient, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Register``1(System.Object,System.Object,System.Boolean,System.Action{``0})">
+            <summary>Sets the stub of IMessenger.Register(Object recipient, Object token, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Send``1(``0)">
+            <summary>Sets the stub of IMessenger.Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Send``2(``0)">
+            <summary>Sets the stub of IMessenger.Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Send``1(``0,System.Object)">
+            <summary>Sets the stub of IMessenger.Send(!!0 message, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Unregister(System.Object)">
+            <summary>Sets the stub of IMessenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Unregister``1(System.Object)">
+            <summary>Sets the stub of IMessenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Unregister``1(System.Object,System.Object)">
+            <summary>Sets the stub of IMessenger.Unregister(Object recipient, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Unregister``1(System.Object,System.Action{``0})">
+            <summary>Sets the stub of IMessenger.Unregister(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.GalaSoft#MvvmLight#Messaging#IMessenger#Unregister``1(System.Object,System.Object,System.Action{``0})">
+            <summary>Sets the stub of IMessenger.Unregister(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.RegisterOf1ObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Action{``0}})">
+            <summary>Sets stubs of Register(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.RegisterOf1ObjectBooleanActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Boolean,System.Action{``0}})">
+            <summary>Sets stubs of Register(Object recipient, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.RegisterOf1ObjectObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Action{``0}})">
+            <summary>Sets stubs of Register(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.RegisterOf1ObjectObjectBooleanActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Boolean,System.Action{``0}})">
+            <summary>Sets stubs of Register(Object recipient, Object token, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.SendOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets stubs of Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.SendOf1M0Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.Object})">
+            <summary>Sets stubs of Send(!!0 message, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.SendOf2M0``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets stubs of Send(!!0 message)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.UnregisterObject">
+            <summary>Sets the stub of IMessenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.UnregisterOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object})">
+            <summary>Sets stubs of Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.UnregisterOf1ObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Action{``0}})">
+            <summary>Sets stubs of Unregister(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.UnregisterOf1ObjectObject``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object})">
+            <summary>Sets stubs of Unregister(Object recipient, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubIMessenger.UnregisterOf1ObjectObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Action{``0}})">
+            <summary>Sets stubs of Unregister(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubMessageBase">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.MessageBase</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessageBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessageBase.#ctor(System.Object)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessageBase.#ctor(System.Object,System.Object)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubMessageBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessageBase.InitializeStub">
+            <summary>Initializes a new instance of type StubMessageBase</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubMessageBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubMessageBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.Messenger</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.InitializeStub">
+            <summary>Initializes a new instance of type StubMessenger</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Register``1(System.Object,System.Action{``0})">
+            <summary>Sets the stub of Messenger.Register(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Register``1(System.Object,System.Boolean,System.Action{``0})">
+            <summary>Sets the stub of Messenger.Register(Object recipient, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Register``1(System.Object,System.Object,System.Action{``0})">
+            <summary>Sets the stub of Messenger.Register(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Register``1(System.Object,System.Object,System.Boolean,System.Action{``0})">
+            <summary>Sets the stub of Messenger.Register(Object recipient, Object token, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.RegisterOf1ObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Action{``0}})">
+            <summary>Sets stubs of Register(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.RegisterOf1ObjectBooleanActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Boolean,System.Action{``0}})">
+            <summary>Sets stubs of Register(Object recipient, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.RegisterOf1ObjectObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Action{``0}})">
+            <summary>Sets stubs of Register(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.RegisterOf1ObjectObjectBooleanActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Boolean,System.Action{``0}})">
+            <summary>Sets stubs of Register(Object recipient, Object token, Boolean receiveDerivedMessagesToo, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Send``1(``0)">
+            <summary>Sets the stub of Messenger.Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Send``2(``0)">
+            <summary>Sets the stub of Messenger.Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Send``1(``0,System.Object)">
+            <summary>Sets the stub of Messenger.Send(!!0 message, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.SendOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets stubs of Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.SendOf1M0Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.Object})">
+            <summary>Sets stubs of Send(!!0 message, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.SendOf2M0``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0})">
+            <summary>Sets stubs of Send(!!0 message)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Unregister(System.Object)">
+            <summary>Sets the stub of Messenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Unregister``1(System.Object)">
+            <summary>Sets the stub of Messenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Unregister``1(System.Object,System.Object)">
+            <summary>Sets the stub of Messenger.Unregister(Object recipient, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Unregister``1(System.Object,System.Action{``0})">
+            <summary>Sets the stub of Messenger.Unregister(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.Unregister``1(System.Object,System.Object,System.Action{``0})">
+            <summary>Sets the stub of Messenger.Unregister(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.UnregisterObject">
+            <summary>Sets the stub of Messenger.Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.UnregisterOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object})">
+            <summary>Sets stubs of Unregister(Object recipient)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.UnregisterOf1ObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Action{``0}})">
+            <summary>Sets stubs of Unregister(Object recipient, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.UnregisterOf1ObjectObject``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object})">
+            <summary>Sets stubs of Unregister(Object recipient, Object token)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubMessenger.UnregisterOf1ObjectObjectActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Object,System.Object,System.Action{``0}})">
+            <summary>Sets stubs of Unregister(Object recipient, Object token, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.NotificationMessage</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage.#ctor(System.Object,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage.#ctor(System.Object,System.Object,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage.InitializeStub">
+            <summary>Initializes a new instance of type StubNotificationMessage</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage`1">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.NotificationMessage`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage`1.#ctor(`0,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage`1.#ctor(System.Object,`0,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage`1.#ctor(System.Object,System.Object,`0,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage`1.InitializeStub">
+            <summary>Initializes a new instance of type StubNotificationMessage</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessage`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.NotificationMessageAction</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.#ctor(System.String,System.Action)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.#ctor(System.Object,System.String,System.Action)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.#ctor(System.Object,System.Object,System.String,System.Action)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.Execute(System.Object[])">
+            <summary>Sets the stub of NotificationMessageWithCallback.Execute(Object[] arguments)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.ExecuteObjectArray">
+            <summary>Sets the stub of NotificationMessageWithCallback.Execute(Object[] arguments)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.InitializeStub">
+            <summary>Initializes a new instance of type StubNotificationMessageAction</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.NotificationMessageAction`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.#ctor(System.String,System.Action{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.#ctor(System.Object,System.String,System.Action{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.#ctor(System.Object,System.Object,System.String,System.Action{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.Execute(System.Object[])">
+            <summary>Sets the stub of NotificationMessageWithCallback.Execute(Object[] arguments)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.ExecuteObjectArray">
+            <summary>Sets the stub of NotificationMessageWithCallback.Execute(Object[] arguments)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.InitializeStub">
+            <summary>Initializes a new instance of type StubNotificationMessageAction</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageAction`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.NotificationMessageWithCallback</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.#ctor(System.String,System.Delegate)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.#ctor(System.Object,System.String,System.Delegate)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.#ctor(System.Object,System.Object,System.String,System.Delegate)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.Execute(System.Object[])">
+            <summary>Sets the stub of NotificationMessageWithCallback.Execute(Object[] arguments)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.ExecuteObjectArray">
+            <summary>Sets the stub of NotificationMessageWithCallback.Execute(Object[] arguments)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.InitializeStub">
+            <summary>Initializes a new instance of type StubNotificationMessageWithCallback</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubNotificationMessageWithCallback.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessage`1">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.PropertyChangedMessage`1</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessage`1.#ctor(`0,`0,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessage`1.#ctor(System.Object,`0,`0,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessage`1.#ctor(System.Object,System.Object,`0,`0,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessage`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessage`1.InitializeStub">
+            <summary>Initializes a new instance of type StubPropertyChangedMessage</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessage`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessage`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessageBase">
+            <summary>Stub type of GalaSoft.MvvmLight.Messaging.PropertyChangedMessageBase</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessageBase.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessageBase.#ctor(System.Object,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessageBase.#ctor(System.Object,System.Object,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessageBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessageBase.InitializeStub">
+            <summary>Initializes a new instance of type StubPropertyChangedMessageBase</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessageBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Messaging.Fakes.StubPropertyChangedMessageBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService">
+            <summary>Stub type of GalaSoft.MvvmLight.Views.IDialogService</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.#ctor">
+            <summary>Initializes a new instance of type StubIDialogService</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.GalaSoft#MvvmLight#Views#IDialogService#ShowError(System.Exception,System.String,System.String,System.Action)">
+            <summary>Sets the stub of IDialogService.ShowError(Exception error, String title, String buttonText, Action afterHideCallback)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.GalaSoft#MvvmLight#Views#IDialogService#ShowError(System.String,System.String,System.String,System.Action)">
+            <summary>Sets the stub of IDialogService.ShowError(String message, String title, String buttonText, Action afterHideCallback)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.GalaSoft#MvvmLight#Views#IDialogService#ShowMessage(System.String,System.String)">
+            <summary>Sets the stub of IDialogService.ShowMessage(String message, String title)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.GalaSoft#MvvmLight#Views#IDialogService#ShowMessage(System.String,System.String,System.String,System.Action)">
+            <summary>Sets the stub of IDialogService.ShowMessage(String message, String title, String buttonText, Action afterHideCallback)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.GalaSoft#MvvmLight#Views#IDialogService#ShowMessage(System.String,System.String,System.String,System.String,System.Action{System.Boolean})">
+            <summary>Sets the stub of IDialogService.ShowMessage(String message, String title, String buttonConfirmText, String buttonCancelText, Action`1&lt;Boolean&gt; afterHideCallback)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.GalaSoft#MvvmLight#Views#IDialogService#ShowMessageBox(System.String,System.String)">
+            <summary>Sets the stub of IDialogService.ShowMessageBox(String message, String title)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.ShowErrorExceptionStringStringAction">
+            <summary>Sets the stub of IDialogService.ShowError(Exception error, String title, String buttonText, Action afterHideCallback)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.ShowErrorStringStringStringAction">
+            <summary>Sets the stub of IDialogService.ShowError(String message, String title, String buttonText, Action afterHideCallback)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.ShowMessageBoxStringString">
+            <summary>Sets the stub of IDialogService.ShowMessageBox(String message, String title)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.ShowMessageStringString">
+            <summary>Sets the stub of IDialogService.ShowMessage(String message, String title)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.ShowMessageStringStringStringAction">
+            <summary>Sets the stub of IDialogService.ShowMessage(String message, String title, String buttonText, Action afterHideCallback)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubIDialogService.ShowMessageStringStringStringStringActionOfBoolean">
+            <summary>Sets the stub of IDialogService.ShowMessage(String message, String title, String buttonConfirmText, String buttonCancelText, Action`1&lt;Boolean&gt; afterHideCallback)</summary>
+        </member>
+        <member name="T:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService">
+            <summary>Stub type of GalaSoft.MvvmLight.Views.INavigationService</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.#ctor">
+            <summary>Initializes a new instance of type StubINavigationService</summary>
+        </member>
+        <member name="P:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.GalaSoft#MvvmLight#Views#INavigationService#CurrentPageKey">
+            <summary>Sets the stub of INavigationService.get_CurrentPageKey()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.CurrentPageKeyGet">
+            <summary>Sets the stub of INavigationService.get_CurrentPageKey()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.GalaSoft#MvvmLight#Views#INavigationService#GoBack">
+            <summary>Sets the stub of INavigationService.GoBack()</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.GalaSoft#MvvmLight#Views#INavigationService#NavigateTo(System.String)">
+            <summary>Sets the stub of INavigationService.NavigateTo(String pageKey)</summary>
+        </member>
+        <member name="M:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.GalaSoft#MvvmLight#Views#INavigationService#NavigateTo(System.String,System.Object)">
+            <summary>Sets the stub of INavigationService.NavigateTo(String pageKey, Object parameter)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.GoBack">
+            <summary>Sets the stub of INavigationService.GoBack()</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.NavigateToString">
+            <summary>Sets the stub of INavigationService.NavigateTo(String pageKey)</summary>
+        </member>
+        <member name="F:GalaSoft.MvvmLight.Views.Fakes.StubINavigationService.NavigateToStringObject">
+            <summary>Sets the stub of INavigationService.NavigateTo(String pageKey, Object parameter)</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.GalaSoftMvvmLightDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of GalaSoft.MvvmLight</summary>
+        </member>
+    </members>
+</doc>
